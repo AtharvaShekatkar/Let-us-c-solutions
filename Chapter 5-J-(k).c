@@ -26,10 +26,7 @@ int greatestdiv(int num1, int num2){
 		quo = dividend / divisor;
 		rem = dividend - quo * divisor; 
 		dividend = divisor;
-		if(rem == 0)                      
-			break;
-		else
-			divisor = rem;              //updates divisor only if rem != 0 since otherwise greatest common divisor will always be printed 0
+		divisor = rem;
 	}
-	printf("The greatest common divisor is = %d", divisor);
+	printf("The greatest common divisor is = %d", dividend);	//printing dividend because dividend becomes divisorin every iteration. in the final iteration, divisor becomes 0
 }
