@@ -13,9 +13,9 @@ int main(){
 }
 sumofdigits(int num){
 	int sum;
-	if(num == 0)
-		return 0;
+	if(num == 0)	
+		return 0;	//returns 0 after all digits are processed
 	else
-		sum = num % 10 + sumofdigits(num / 10);
+		sum = num % 10 + sumofdigits(num / 10); 	//calls function after shifting digits one place to the right
 	return sum;
 }
