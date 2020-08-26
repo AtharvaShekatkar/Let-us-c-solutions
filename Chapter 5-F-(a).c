@@ -1,7 +1,8 @@
+//program to find product of int and float using a function
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
-float product(float, int);
+float product(float, int); //prototype declaration
 int main(){
 	float num1, prod;
 	int num2;
