@@ -1,0 +1,1 @@
+Refer to https://github.com/kuuhakublank00/Let-us-c-solutions/blob/master/Chp%207-C-(a)-4.c as it is the same question.
