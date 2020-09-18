@@ -1,4 +1,4 @@
-Implement insertion sort for 10 numbers:
+//Implement insertion sort for 10 numbers:
 #include<stdio.h>
 #include<conio.h>
 int main(){
