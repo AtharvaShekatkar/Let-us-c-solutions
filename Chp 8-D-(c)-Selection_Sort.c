@@ -1,8 +1,6 @@
 //Implement selection sort for 10 elements:
 #include<stdio.h>
 #include<conio.h>
-#include<math.h>
-#include<stdlib.h>
 int main(){
     int arr[10], i, j, temp;
     printf("Filling array now:\n");
