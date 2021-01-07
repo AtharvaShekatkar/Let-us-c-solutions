@@ -1,3 +1,4 @@
+//Write a program that converts all lowercase characters in a given string to its equivalent uppercase character.
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
