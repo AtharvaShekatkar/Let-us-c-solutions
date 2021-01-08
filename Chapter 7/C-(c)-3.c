@@ -1,4 +1,4 @@
-Write down macro definitions for the following: To convert a uppercase alphabet to lowercase.
+//Write down macro definitions for the following: To convert a uppercase alphabet to lowercase.
 #include<math.h>
 #include<stdio.h>
 #include<conio.h>
