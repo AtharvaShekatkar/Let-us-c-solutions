@@ -1,5 +1,5 @@
 //Write macro definitions with arguments for calculation of area and perimeter of a triangle, a square and a circle. Store these macro definitions in a file called “areaperi.h”. Include this file in your program, and call the macro definitions for calculating area and perimeter for different squares, triangles and circles.
-//Note:custom header file as required to be defined in question(header file is uploaded in the Chapter 7 folder as well)
+//Note:custom header file as required to be defined in question C-(b)
 #include<math.h>
 float area, peri, s;
 #define TRIANGLE(a, b, c) peri = a + b + c;\
