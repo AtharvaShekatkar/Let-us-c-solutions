@@ -1,4 +1,4 @@
-Write down macro definitions for the following: To find absolute value of a number.
+//Write down macro definitions for the following: To find absolute value of a number.
 #include<math.h>
 #include<stdio.h>
 #include<conio.h>
