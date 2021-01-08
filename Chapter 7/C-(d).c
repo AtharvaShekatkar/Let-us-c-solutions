@@ -1,4 +1,6 @@
-Write macro definitions with arguments for calculation of Simple Interest and Amount. Store these macro definitions in a file called “interest.h”. Include this file in your program, and use the macro definitions for calculating simple interest and amount.
+//Write macro definitions with arguments for calculation of Simple Interest and Amount. Store these macro definitions in a file called “interest.h”.
+// Include this file in your program, and use the macro definitions for calculating simple interest and amount.
+//Note: the required custom .h file is uploaded in the Chapter 7 folder as well
 #include<math.h>
 #include<stdio.h>
 #include<conio.h>
