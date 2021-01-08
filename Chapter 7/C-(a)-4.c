@@ -1,4 +1,4 @@
-Write macro definitions for the following: To obtain the bigger of two numbers.
+//Write macro definitions for the following: To obtain the bigger of two numbers.
 #include<math.h>
 #include<stdio.h>
 #include<conio.h>
