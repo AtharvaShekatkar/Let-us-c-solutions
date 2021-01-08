@@ -1,4 +1,4 @@
-Write down macro definitions for the following: To test whether a character is an alphabet or not. Make use of the macros you defined in (1) and (2) above.
+//Write down macro definitions for the following: To test whether a character is an alphabet or not. Make use of the macros you defined in (1) and (2) above.
 #include<math.h>
 #include<stdio.h>
 #include<conio.h>
