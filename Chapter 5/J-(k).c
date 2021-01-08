@@ -1,4 +1,4 @@
-Write a function to compute the greatest common divisor given by Euclid’s algorithm
+//Write a function to compute the greatest common divisor given by Euclid’s algorithm
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
