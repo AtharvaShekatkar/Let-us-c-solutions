@@ -1,4 +1,4 @@
-Write down macro definitions for the following: To test whether a character entered is a upper case letter or not.
+//Write down macro definitions for the following: To test whether a character entered is a upper case letter or not.
 #include<math.h>
 #include<stdio.h>
 #include<conio.h>
