@@ -1,4 +1,4 @@
-Write down macro definitions for the following: To find arithmetic mean of two numbers.
+//Write down macro definitions for the following: To find arithmetic mean of two numbers.
 #include<math.h>
 #include<stdio.h>
 #include<conio.h>
