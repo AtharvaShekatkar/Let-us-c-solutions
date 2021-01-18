@@ -1,3 +1,4 @@
+//prime factors of a given number using recursion
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
