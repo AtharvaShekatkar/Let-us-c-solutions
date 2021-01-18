@@ -1,4 +1,4 @@
-A 5-digit positive integer is entered through the keyboard, write a function to calculate sum of digits of the 5-digit number: using recursions
+//A 5-digit positive integer is entered through the keyboard, write a function to calculate sum of digits of the 5-digit number: using recursions
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
