@@ -41,6 +41,7 @@ int main(){
     for(int i = 0; i < num; i++)                //prints the sorted list of names 
         printf("%s\n", names[i]);
     
+    free(names);
     free(p);
 }
 
