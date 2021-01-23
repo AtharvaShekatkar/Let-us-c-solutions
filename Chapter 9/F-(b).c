@@ -13,7 +13,7 @@ int main(){
     char **names = (char **)malloc(sizeof(char**));         //allocating memory to create an array of pointers to strings
     do{
         if(i >= 1){
-            realloc(names, sizeof(char**) * i);           //reallocates memory if another name must be stored
+            realloc(names, sizeof(char**) * (i + 1));           //reallocates memory if another name must be stored
         }
         printf("Enter a name: ");
         fgets(n, 21, stdin);
