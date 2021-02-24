@@ -3,8 +3,6 @@
 #include<stdlib.h>
 #include<string.h>
 
-#define MAX 80
-
 void abbreviate(const char *,const char *,const char *, char *);
 
 int main(){
