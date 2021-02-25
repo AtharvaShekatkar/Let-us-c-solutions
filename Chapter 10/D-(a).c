@@ -10,7 +10,7 @@ Assume that there are not more than 450 students in the collage.
 #include<stdlib.h>
 #include<string.h>
 
-#define MAX 3
+#define MAX 450
 
 //structure declaration and definition
 struct student{     
