@@ -12,7 +12,7 @@ Use the qusort( ) standard library function.
 struct cricket{
     char *name;
     int age, test;
-    int avg;
+    float avg;
 };
 
 int comparator(const void *, const void *);
@@ -37,7 +37,7 @@ int main(){
         scanf("%d", &c1[i].test);
 
         printf("Enter the avg score for test matches: ");
-        scanf("%d", &c1[i].avg);
+        scanf("%f", &c1[i].avg);
         getchar();
     }
 
@@ -45,7 +45,7 @@ int main(){
 
     //printing the sorted average runs
     for(int i = 0; i < MAX; i++){         
-        printf("%d\n", c1[i].avg);
+        printf("%0.2f\n", c1[i].avg);
     }
 
     return 0;
@@ -55,5 +55,5 @@ int main(){
 int comparator(const void *p, const void *q){
     const struct cricket *elem1 = (struct cricket *)p;
     const struct cricket *elem2 = (struct cricket *)q;
-    return((elem1 -> avg) - (elem2 -> avg));
+    return((elem1 -> avg > elem2 -> avg) - (elem1 -> avg < elem2 -> avg));
 }
