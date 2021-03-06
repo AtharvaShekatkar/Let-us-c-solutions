@@ -4,11 +4,6 @@
 #include<stdlib.h>
 #include<string.h>
 
-typedef struct student{
-    char name[50];
-    int age;
-}student;
-
 int main(){
 
     //declaring file pointers
