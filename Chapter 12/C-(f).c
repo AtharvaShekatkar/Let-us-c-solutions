@@ -6,13 +6,7 @@ If one file has less number of lines than the other, the remaining lines from th
 #include<stdlib.h>
 #include<string.h>
 
-typedef struct student{
-    char name[50];
-    int age;
-}student;
-
 int main(){
-
     
     FILE *fs1, *fs2, *ft;
 
@@ -41,6 +35,7 @@ int main(){
             fgets(text1, 100, fs1);
             fputs(text1, ft);
         }
+        
         if(!feof(fs2)){
             fgets(text2, 100, fs2);
             fputs(text2, ft);
